@@ -1,5 +1,14 @@
 #Geometry WarZ - CS174 Final Project
 
+##Team
+Name          |     UID
+------------- | -------------
+Justin Hou    | 204155681
+Helen Liang   | 804046774
+Kevin Tong    | 704161137
+Eric Yang     | 304263623
+Roland Zeng   | 204150508
+
 ##Synopsis
 
 The year is 2115. You play as a government agent from the future. You have been sent back in time to 2015 to stop the Great Geometry Apocalypse, a catastrophic disaster where characters, both fictional and real, have been transformed into nefarious beings of primitive geometry who intend to wipe out humanity. The balance of the universe rests in your hands. **These cubes must be stopped!**
@@ -17,16 +26,6 @@ T | Toggle Lane Trace
 B | Toggle Bump Map
 G | Toggle God Mode
 X | Increase Score (God Mode)
-
-##Team
-Name          |     UID
-------------- | -------------
-Justin Hou    | 204155681
-Helen Liang   | 804046774
-Kevin Tong    | 704161137
-Eric Yang     | 304263623
-Roland Zeng   | 204150508
-
 
 ##Project Notes
 **Proposal:** http://bit.ly/1KzuLRX
