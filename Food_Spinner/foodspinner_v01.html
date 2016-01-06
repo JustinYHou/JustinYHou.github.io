@@ -94,6 +94,7 @@
             "Bibigo", "Sansai", "Tomodachi\'s", "Ami Sushi", "Pieology", "800 Degrees", "El Pollo Loco"];
         list.sort();
 
+        var setup = true;
         var padding;
         var w;
         var h;
@@ -121,13 +122,15 @@
         var listItems = document.getElementsByTagName("li");  
         for (var i = 0; i < listItems.length; i++) {
             listItems[i].onclick = function() {
-                for (var j = 0; j < list.length; j++) {
-                    if (list[j] == this.innerHTML) {
-                        list.splice(j, 1);
-                        break;
+                if (setup) {
+                    for (var j = 0; j < list.length; j++) {
+                        if (list[j] == this.innerHTML) {
+                            list.splice(j, 1);
+                            break;
+                        }
                     }
+                    this.parentNode.removeChild(this);
                 }
-                this.parentNode.removeChild(this);
             }
         }
 
@@ -135,6 +138,7 @@
         function init() {
 
             document.getElementById("button").disabled = true;
+            setup = false;   
 
             data = [];
 
@@ -212,8 +216,8 @@
                 .attr("x", 0)
                 .attr("y", 11)
                 .attr("text-anchor", "middle")
-                .text("yolo")
-                .style({"font-weight":"bold", "font-size":"30px"});
+                .text("yolo rng")
+                .style({"font-weight":"bold", "font-size":"26px"});
 
         }
 
